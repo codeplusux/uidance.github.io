@@ -1,2 +1,2 @@
-# dance
+# uidance
 ui.dance | Microinteractions inspiration
