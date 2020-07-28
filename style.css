@@ -54,16 +54,16 @@ body {
 
 .brand h1 {
   text-align: center;
-  width: 120px;
+  width: 175px;
   margin: 0 auto 7px;
 }
 
 .brand h1 a {
   text-indent: -9999px;
   background: url(i/brand.svg) no-repeat left center;
-  background-size: 120px 30px;
-  width: 120px;
-  height: 30px;
+  background-size: 175px 24px;
+  width: 175px;
+  height: 24px;
   display: block;
 }
 
