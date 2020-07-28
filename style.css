@@ -4,8 +4,8 @@
 
 html,
 body {
-  height: 100%;
   margin: 0;
+  height: 100vh;
 }
 
 ul {
@@ -23,9 +23,9 @@ button {
 
 /* LAYOUT */
 
-.container-fluid {
+/* .container-fluid {
   height: 100%;
-}
+} */
 
 .head {
   padding: 2rem;
@@ -147,12 +147,6 @@ video {
 
   video {
     width: 90%;
-  }
-
-  .brand h1 a {
-    background-size: 100px 20px;
-    width: 100px;
-    height: 20px;
   }
 }
 
