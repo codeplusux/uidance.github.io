@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="@uxpablo" />
+    <meta name="description" content="ui dance.  Apple microinteractions" />
+    <meta name="keywords" content="Apple, ios, microinteractions, UX, UI" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>ui.dance | Microinteractions inspiration</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 head">
+          <div class="brand">
+            <h1><a href="/">uidance</a></h1>
+            <p class="tagLine">Microinteractions inspiration</p>
+          </div>
+        </div>
+      </div>
+      <div class="row gallery">
+        <div class="loader">Loading...</div>
+
+        <div class="col-12 video">
+          <h2 class="hero">Rappi</h2>
+
+          <video id="stage" class="stage" src='videos/rappi.mp4'></video>        
+        
+        </div>
+      </div>
+      <div class="row">
+        <div class="container">
+          <div class="row row-cols-3">
+            <div class="bar">
+              <div class="progressBar"></div>
+            </div>
+          </div>
+          <div class="row row-cols-2">
+            <div class="col buttons" style="padding: 2rem;">
+              <button title="" id="play-pause" class="play"></button>
+            </div>
+            <div class="col" style="padding: 2rem;"><button onclick="nextDance()" title="" class="next">Next dance</button></div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+    <script src="dance.js"></script>
+    <script src="random.js"></script>
+
+  </body>
+</html>
