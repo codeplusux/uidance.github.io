@@ -35,5 +35,8 @@ video.addEventListener("timeupdate", function () {
   progressBar.style.width = point * 100 + "%";
   if (video.ended) {
     btn.className = "play";
+    document
+      .getElementsByTagName("body")[0]
+      .removeAttribute("class", "videoOn");
   }
 });
