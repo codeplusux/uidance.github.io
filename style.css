@@ -174,12 +174,6 @@ video {
     width: 200px;
   } */
 
-  .brand h1 a {
-    background-size: 100px 20px;
-    width: 100px;
-    height: 20px;
-  }
-
   .head {
     padding: 1rem 0rem 0rem;
   }
