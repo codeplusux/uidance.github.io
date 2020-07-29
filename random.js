@@ -33,5 +33,6 @@ window.onload = function () {
       .getElementsByClassName("mobileAlert")
       .element.classList.remove("hide");
   } else {
+    console.log("desktop");
   }
 };
