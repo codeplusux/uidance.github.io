@@ -9,7 +9,7 @@ window.addEventListener("load", function () {
 // Video player
 
 var video = document.querySelector(".stage");
-var progressBar = document.querySelector(".progressBar");
+//var progressBar = document.querySelector(".progressBar");
 var btn = document.getElementById("play-pause");
 
 function tooglePlayPause() {
@@ -32,7 +32,7 @@ btn.onclick = function () {
 
 video.addEventListener("timeupdate", function () {
   var point = video.currentTime / video.duration;
-  progressBar.style.width = point * 100 + "%";
+  //progressBar.style.width = point * 100 + "%";
   if (video.ended) {
     btn.className = "play";
     document

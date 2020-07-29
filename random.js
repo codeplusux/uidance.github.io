@@ -1,5 +1,4 @@
-// var videosArray = ["videos/rappi.mp4", "videos/trivago.mp4"];
-
+//Array videos
 var videosArray = [
   {
     id: "id1",
@@ -13,6 +12,7 @@ var videosArray = [
   },
 ];
 
+//Random display
 function nextDance() {
   const { name, path } = videosArray[
     Math.floor(Math.random() * videosArray.length)
@@ -20,3 +20,18 @@ function nextDance() {
   document.getElementById("hero").innerHTML = name;
   document.getElementById("stage").src = path;
 }
+
+window.onload = function () {
+  if (
+    navigator.userAgent.match(/Android/i) ||
+    navigator.userAgent.match(/iPhone/i) ||
+    navigator.userAgent.match(/iPod/i) ||
+    navigator.userAgent.match(/BlackBerry/i) ||
+    navigator.userAgent.match(/Windows Phone/i)
+  ) {
+    document
+      .getElementsByClassName("mobileAlert")
+      .element.classList.remove("hide");
+  } else {
+  }
+};

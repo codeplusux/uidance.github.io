@@ -21,6 +21,10 @@ button {
   border: none;
 }
 
+.hide {
+  display: none;
+}
+
 /* LAYOUT */
 
 /* .container-fluid {
@@ -97,7 +101,7 @@ body {
 
 video {
   max-width: 400px;
-  box-shadow: 0 11px 44px 13px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 11px 44px 13px rgba(0, 0, 0, 0.7) d;
   border-radius: 15px;
 }
 
