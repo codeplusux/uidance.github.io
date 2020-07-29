@@ -79,6 +79,21 @@
     </div>
 
 
+
+
+    <div id="emojics-root"></div>
+    <script>
+      window.emojicsOpts = {
+      widget: '88817678bec5d91397871ec57bf383'
+      };
+      (function(d, e, id) {
+        function s() {var js, a = d.getElementsByTagName("script")[0];js = d.createElement("script");js.id = id;js.src = "//connect.emojics.com/dist/sdk.js";a.parentNode.insertBefore(js, a);}
+        window.emojics=e;e.readyQueue=[];e.ready=function(b){e.readyQueue.push(b)}
+        window.attachEvent?window.attachEvent("onload",s):window.addEventListener("load",s)
+      })(document, window.emojics||{}, "emojics-js");
+    </script>
+
+
     <script src="dance.js"></script>
     <script src="random.js"></script>
 
