@@ -28,7 +28,7 @@ button {
 } */
 
 .head {
-  padding: 2rem;
+  padding-top: 2rem;
 }
 
 /* BRAND */
@@ -75,7 +75,7 @@ body {
   text-align: center;
 }
 
-.hero {
+#hero {
   font-family: helvetica;
   font-size: 1.3rem;
   color: #fff;
@@ -83,6 +83,7 @@ body {
   text-align: center;
   font-weight: bold;
   text-rendering: optimizelegibility;
+  margin-top: 1.5rem;
   padding-bottom: 0.6rem;
 }
 
@@ -102,28 +103,30 @@ video {
 
 .play {
   background: url(i/play.svg) no-repeat;
-  background-size: 71px 71px;
-  width: 71px;
-  height: 71px;
+  background-size: 50px;
+  width: 50px;
+  height: 50px;
   display: block;
   float: right;
+  margin-bottom: 1.5rem;
 }
 
 .pause {
   background: url(i/pause.svg) no-repeat;
-  background-size: 71px 71px;
-  width: 71px;
-  height: 71px;
+  background-size: 50px;
+  width: 50px;
+  height: 50px;
   display: block;
   float: right;
+  margin-bottom: 1.5rem;
 }
 
 .next {
   background: url(i/next.svg) no-repeat;
   text-indent: -9999px;
-  background-size: 71px 71px;
-  width: 71px;
-  height: 71px;
+  background-size: 50px;
+  width: 50px;
+  height: 50px;
   display: block;
 }
 
@@ -142,7 +145,7 @@ video {
 
 @media (max-width: 575.98px) {
   .head {
-    padding: 1.5rem 1rem 0rem 1rem;
+    padding-top: 1.5rem;
   }
 
   video {
@@ -169,17 +172,13 @@ video {
   } */
 
   .head {
-    padding: 1rem 0rem 0rem;
+    padding-top: 1rem;
   }
 }
 
 @media (min-width: 1800px) {
   video {
     width: 400px;
-  }
-
-  .head {
-    padding: 2rem;
   }
 }
 
