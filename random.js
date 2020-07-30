@@ -20,6 +20,11 @@ var videosArray = [
     name: "Calm",
     path: "videos/calm.mp4",
   },
+  {
+    id: "id5",
+    name: "Uber",
+    path: "videos/uber.mp4",
+  },
 ];
 
 //Random display
