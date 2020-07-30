@@ -21,10 +21,13 @@ button {
   border: none;
 }
 
-.hide {
+.alertMobile {
   display: none;
 }
 
+.container-fluid {
+  height: 100%;
+}
 /* LAYOUT */
 
 /* .container-fluid {
@@ -33,6 +36,14 @@ button {
 
 .head {
   padding-top: 2rem;
+}
+
+.alertMobile {
+  font-style: bold;
+  font-size: 5rem;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
 }
 
 /* BRAND */
@@ -92,7 +103,10 @@ body {
 }
 
 /* VIDEO */
-
+.loader {
+  color: #fff;
+  padding-bottom: 1rem;
+}
 .video {
   padding: 0rem 2rem;
   text-align: center;
@@ -148,12 +162,9 @@ video {
 /* RESPONSIVE */
 
 @media (max-width: 575.98px) {
-  .head {
-    padding-top: 1.5rem;
-  }
-
-  video {
-    width: 90%;
+  .controlls,
+  .gallery {
+    display: none;
   }
 }
 

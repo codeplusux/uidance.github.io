@@ -40,3 +40,21 @@ video.addEventListener("timeupdate", function () {
       .removeAttribute("class", "videoOn");
   }
 });
+
+window.onload = function () {
+  console.log("test");
+  if (
+    navigator.userAgent.match(/Android/i) ||
+    navigator.userAgent.match(/iPhone/i) ||
+    navigator.userAgent.match(/iPod/i) ||
+    navigator.userAgent.match(/BlackBerry/i) ||
+    navigator.userAgent.match(/Windows Phone/i)
+  ) {
+    document
+      .getElementsByClassName("mobileAlert")
+      .element.classList.remove("hide");
+    console.log("mobile");
+  } else {
+    console.log("desktop");
+  }
+};

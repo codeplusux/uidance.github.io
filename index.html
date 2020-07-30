@@ -36,11 +36,6 @@
 
     <div class="container-fluid">
 
-      <div class="alert alert-warning mobile hide" role="alert">
-        Hi friend!. Check the desktop version. The mobile version is not yet ready. :)
-      </div>
-
-
       <div class="row">
         <div class="col-12 head">
           <div class="brand">
@@ -49,14 +44,20 @@
           </div>
         </div>
       </div>
-      <div class="row">
+
+      <div class="alertMobile">
+        Hi!. Test desktop version ;)
+      </div>
+
+
+      <div class="row controlls">
         <div class="container">
           <!--div class="row row-cols-3">
             <div class="bar">
               <div class="progressBar"></div>
             </div>
           </div-->
-          <div class="row row-cols-2">
+          <div class="row row-cols-2 ">
             <div class="col">
               <button title="" id="play-pause" class="play"></button>
             </div>
@@ -65,10 +66,9 @@
         </div>
       </div>
       <div class="row gallery">
-        <div class="loader">Loading...</div>
 
         <div class="col-12 video">
-
+          <div class="loader">Loading...</div>
           <video id="stage" class="stage" src='videos/rappi.mp4' type='video/mp4'></video>  
           <h2 id="hero" ></h2>
 
@@ -78,13 +78,8 @@
       </div>
     </div>
 
-
-
-
     <script src="dance.js"></script>
     <script src="random.js"></script>
-
-
 
     <div id="emojics-root"></div>
     <script>
