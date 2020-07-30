@@ -10,6 +10,11 @@ var videosArray = [
     name: "Trivago",
     path: "videos/trivago.mp4",
   },
+  {
+    id: "id3",
+    name: "Apple",
+    path: "videos/apple.mp4",
+  },
 ];
 
 //Random display
