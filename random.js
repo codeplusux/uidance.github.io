@@ -32,6 +32,12 @@ function nextDance() {
 }
 
 window.onload = function () {
+  const { name, path } = videosArray[
+    Math.floor(Math.random() * videosArray.length)
+  ];
+  document.getElementById("hero").innerHTML = name;
+  document.getElementById("stage").src = path;
+
   if (
     navigator.userAgent.match(/Android/i) ||
     navigator.userAgent.match(/iPhone/i) ||
