@@ -162,10 +162,6 @@ video {
 /* RESPONSIVE */
 
 @media (max-width: 575.98px) {
-  .controlls,
-  .gallery {
-    display: none;
-  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
