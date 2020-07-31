@@ -34,12 +34,6 @@ function nextDance() {
   ];
   document.getElementById("hero").innerHTML = name;
   document.getElementById("stage").src = path;
-
-  let cargando = document.querySelector(".loader");
-
-  window.addEventListener("load", function () {
-    cargando.style.display = "none";
-  });
 }
 
 window.onload = function () {
