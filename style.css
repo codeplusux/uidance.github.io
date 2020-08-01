@@ -146,7 +146,7 @@ video::-webkit-media-controls-enclosure {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .mobileNotReady {
-    display: none;
+    display: none !important;
   }
 
   .deco {
