@@ -152,7 +152,6 @@ h3 {
 
   .shape {
     width: 14vw;
-    box-shadow: 0 0px 0px 4px rgb(255 255 255 / 100%);
     border-radius: 4rem;
   }
 
@@ -177,7 +176,6 @@ h3 {
 
   .shape {
     width: 10vw;
-    box-shadow: 0 0px 0px 6px rgb(255 255 255 / 100%);
     border-radius: 4rem;
   }
 }
