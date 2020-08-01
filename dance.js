@@ -74,6 +74,8 @@ video.addEventListener("timeupdate", function () {
 //   }
 // };
 
-if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-  alert("Mobile test");
+if (/Android|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+  document.getElementById("videoStage").classList.add("hide");
+  document.getElementsByTagName("ul")[0].classList.add("hide");
+} else {
 }

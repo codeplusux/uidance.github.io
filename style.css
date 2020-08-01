@@ -136,6 +136,11 @@ video::-webkit-media-controls-enclosure {
   display: none !important;
 }
 
+#videoStage {
+  height: 100%;
+  width: 100%;
+}
+
 /* BREACKPOINTS */
 
 /* Extra small devices (portrait phones, less than 576px) */
