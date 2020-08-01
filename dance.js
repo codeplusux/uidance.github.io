@@ -73,3 +73,7 @@ video.addEventListener("timeupdate", function () {
 //     console.log("desktop");
 //   }
 // };
+
+if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+  alert("Mobile test");
+}
