@@ -75,5 +75,6 @@ video.addEventListener("timeupdate", function () {
 // };
 
 var bgvideo = document.getElementById("stage");
+console.log(bgvideo);
 bgvideo.muted = true;
 bgvideo.play();
