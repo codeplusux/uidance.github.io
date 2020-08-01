@@ -128,8 +128,8 @@ h3 {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  body {
-    background: url(i/cornerLeftMobile.svg) #6b6b6b no-repeat left top;
+  .deco {
+    background: url(i/cornerLeft.svg) repeat -7rem top;
   }
 
   .container-fluid {
@@ -161,6 +161,7 @@ h3 {
 
   #tagline {
     margin-top: 1rem;
+    font-size: 1.5rem;
   }
 
   #hero {
