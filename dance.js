@@ -73,8 +73,3 @@ video.addEventListener("timeupdate", function () {
 //     console.log("desktop");
 //   }
 // };
-
-var bgvideo = document.getElementById("stage");
-console.log(bgvideo);
-bgvideo.muted = true;
-bgvideo.play();

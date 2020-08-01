@@ -124,6 +124,18 @@ h3 {
   background: none !important;
 }
 
+::-webkit-media-controls {
+  display: none !important;
+}
+
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+
 /* BREACKPOINTS */
 
 /* Extra small devices (portrait phones, less than 576px) */
