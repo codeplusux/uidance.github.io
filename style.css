@@ -145,6 +145,10 @@ video::-webkit-media-controls-enclosure {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .mobileNotReady {
+    display: none;
+  }
+
   .deco {
     background: url(i/cornerLeft.svg) repeat -9rem top;
   }
