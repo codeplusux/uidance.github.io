@@ -34,7 +34,7 @@ function nextDance() {
   ];
   document.getElementById("hero").innerHTML = name;
   document.getElementById("stage").src = path;
-  document.getElementById("menu").classList.remove("h-100-mobile");
+  document.getElementById("set").classList.remove("h-100-mobile");
   document.getElementById("svg1").classList.remove("hide");
   document.getElementById("svg1").classList.remove("btnOn");
   document.getElementById("svg2").classList.remove("btnOn");

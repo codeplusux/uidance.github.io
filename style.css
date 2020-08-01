@@ -129,7 +129,11 @@ h3 {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .deco {
-    background: url(i/cornerLeft.svg) repeat -7rem top;
+    background: url(i/cornerLeft.svg) repeat -9rem top;
+  }
+
+  .container-fluid {
+    background: url(i/cornerRight.svg) no-repeat 9rem bottom;
   }
 
   .brand {
