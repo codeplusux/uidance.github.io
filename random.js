@@ -34,6 +34,14 @@ function nextDance() {
   ];
   document.getElementById("hero").innerHTML = name;
   document.getElementById("stage").src = path;
+  document.getElementById("menu").classList.remove("h-100-mobile");
+  document.getElementById("svg1").classList.remove("hide");
+  document.getElementById("svg1").classList.remove("btnOn");
+  document.getElementById("svg2").classList.remove("btnOn");
+  document.getElementById("svg3").classList.add("hide");
+  document.getElementsByTagName("body")[0].removeAttribute("class", "videoOn");
+  document.getElementById("tagline").classList.remove("taglineOn");
+  document.getElementsByTagName("div")[0].classList.remove("noBg");
 }
 
 window.onload = function () {

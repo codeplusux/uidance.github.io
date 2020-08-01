@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="411px" height="350px" viewBox="0 0 411 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>galleryCat Copy 29</title>
+    <defs>
+        <linearGradient x1="63.8507707%" y1="31.8923323%" x2="25.4704894%" y2="58.3919586%" id="linearGradient-1">
+            <stop stop-color="#9B9FA5" stop-opacity="0.0442253059" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path-6-Copy-26" fill="url(#linearGradient-1)" opacity="0.837774368" style="mix-blend-mode: multiply;" transform="translate(205.500000, 175.000000) scale(-1, 1) translate(-205.500000, -175.000000) " points="0 350 108.239062 349.762986 411 0 0 0"></polygon>
+        <polygon id="Path-6-Copy-27" stroke="#FFFFFF" transform="translate(317.937305, 320.394943) rotate(-50.000000) translate(-317.937305, -320.394943) " points="412.359076 482.186405 223.515534 351.526265 223.515534 158.60348"></polygon>
+        <polygon id="Path-6-Copy-28" stroke="#FFFFFF" transform="translate(320.288445, 306.702896) rotate(-50.000000) translate(-320.288445, -306.702896) " points="414.710216 468.494358 225.866674 337.834218 225.866674 144.911434"></polygon>
+        <polygon id="Path-6-Copy-29" stroke="#FFFFFF" transform="translate(324.048417, 292.887593) rotate(-50.000000) translate(-324.048417, -292.887593) " points="418.470189 454.679055 229.626646 324.018915 229.626646 131.09613"></polygon>
+        <polygon id="Path-6-Copy-30" stroke="#FFFFFF" transform="translate(327.165602, 279.838334) rotate(-50.000000) translate(-327.165602, -279.838334) " points="421.587373 441.629796 232.743831 310.969656 232.743831 118.046871"></polygon>
+        <polygon id="Path-6-Copy-31" stroke="#FFFFFF" transform="translate(329.516742, 266.146287) rotate(-50.000000) translate(-329.516742, -266.146287) " points="423.938513 427.93775 235.094971 297.277609 235.094971 104.354825"></polygon>
+        <polygon id="Path-6-Copy-32" stroke="#FFFFFF" transform="translate(332.114396, 255.271905) rotate(-50.000000) translate(-332.114396, -255.271905) " points="426.536167 417.063367 237.692625 286.403227 237.692625 93.4804423"></polygon>
+        <polygon id="Path-6-Copy-33" stroke="#FFFFFF" transform="translate(334.069263, 245.163567) rotate(-50.000000) translate(-334.069263, -245.163567) " points="428.491034 406.955029 239.647491 276.294889 239.647491 83.3721043"></polygon>
+        <polygon id="Path-6-Copy-34" stroke="#FFFFFF" transform="translate(336.790173, 235.698016) rotate(-50.000000) translate(-336.790173, -235.698016) " points="431.211944 397.489479 242.368402 266.829339 242.368402 73.9065539"></polygon>
+        <polygon id="Path-6-Copy-35" stroke="#FFFFFF" transform="translate(338.102252, 226.355723) rotate(-50.000000) translate(-338.102252, -226.355723) " points="432.524023 388.147185 243.680481 257.487045 243.680481 64.5642603"></polygon>
+        <polygon id="Path-6-Copy-36" stroke="#FFFFFF" transform="translate(340.180375, 217.656217) rotate(-50.000000) translate(-340.180375, -217.656217) " points="434.602146 379.447679 245.758604 248.787539 245.758604 55.8647543"></polygon>
+        <polygon id="Path-6-Copy-37" stroke="#FFFFFF" transform="translate(342.258498, 208.956711) rotate(-50.000000) translate(-342.258498, -208.956711) " points="436.680269 370.748173 247.836727 240.088033 247.836727 47.1652483"></polygon>
+        <polygon id="Path-6-Copy-38" stroke="#FFFFFF" transform="translate(343.693834, 201.023249) rotate(-50.000000) translate(-343.693834, -201.023249) " points="438.115605 362.814711 249.272062 232.154571 249.272062 39.2317868"></polygon>
+        <polygon id="Path-6-Copy-39" stroke="#FFFFFF" transform="translate(345.771957, 192.323743) rotate(-50.000000) translate(-345.771957, -192.323743) " points="440.193728 354.115205 251.350186 223.455065 251.350186 30.5322808"></polygon>
+        <polygon id="Path-6-Copy-40" stroke="#FFFFFF" transform="translate(347.973337, 185.033069) rotate(-50.000000) translate(-347.973337, -185.033069) " points="442.395108 346.824532 253.551566 216.164392 253.551566 23.2416068"></polygon>
+        <polygon id="Path-6-Copy-41" stroke="#FFFFFF" transform="translate(348.642628, 176.456820) rotate(-50.000000) translate(-348.642628, -176.456820) " points="443.064399 338.248282 254.220857 207.588142 254.220857 14.6653577"></polygon>
+    </g>
+</svg>
