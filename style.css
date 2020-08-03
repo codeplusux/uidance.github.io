@@ -47,6 +47,7 @@ button {
 
 h3 {
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 /* BRANDING */
@@ -87,6 +88,7 @@ h3 {
 .stage {
   width: 70%;
   box-shadow: 0 11px 44px 13px rgba(0, 0, 0, 0.7);
+  background-color: black;
 }
 
 .shadowVideo {
@@ -211,6 +213,12 @@ video::-webkit-media-controls-enclosure {
 
   .shape {
     width: 10vw;
+  }
+
+  .brand {
+    width: 200px;
+    background-size: 200px 120px;
+    height: 120px;
   }
 }
 
