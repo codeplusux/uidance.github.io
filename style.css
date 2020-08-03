@@ -75,7 +75,6 @@ h3 {
   color: #fff;
   letter-spacing: 0.5px;
   text-align: center;
-  margin-top: 2rem;
 }
 
 .taglineOn {
@@ -152,7 +151,7 @@ video::-webkit-media-controls-enclosure {
 
 #bar .barWrap {
   width: 100%;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   border-radius: 10px;
 }
 
@@ -161,6 +160,10 @@ video::-webkit-media-controls-enclosure {
   height: 0.69rem;
   border-radius: 10px;
   border: 1px solid #ffff;
+}
+
+.barOff {
+  opacity: 0.08;
 }
 
 /* BREACKPOINTS */

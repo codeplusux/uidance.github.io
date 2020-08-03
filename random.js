@@ -47,6 +47,7 @@ function nextDance() {
   document.getElementsByTagName("body")[0].removeAttribute("class", "videoOn");
   document.getElementById("tagline").classList.remove("taglineOn");
   document.getElementsByTagName("div")[0].classList.remove("noBg");
+  document.getElementById("bar").classList.add("barOff");
 }
 
 window.onload = function () {

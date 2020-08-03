@@ -21,6 +21,7 @@ function tooglePlayPause() {
     document.getElementById("svg2").classList.add("btnOn");
     document.getElementById("svg3").classList.remove("hide");
     document.getElementById("svg3").classList.add("btnOn");
+    document.getElementById("bar").classList.remove("barOff");
     //document.getElementById("next").classList.add("invisible");
   } else {
     btn.className = "play";
@@ -33,6 +34,7 @@ function tooglePlayPause() {
     document.getElementById("svg1").classList.remove("hide");
     document.getElementById("svg2").classList.remove("btnOn");
     document.getElementById("svg3").classList.add("hide");
+    document.getElementById("bar").classList.add("barOff");
     //document.getElementById("next").classList.remove("invisible");
   }
 }
