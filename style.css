@@ -57,12 +57,14 @@ h3 {
 }
 
 .brand {
-  width: 200px;
+  width: 157px;
   text-indent: -9999px;
   background: url(i/brand.svg) no-repeat left center;
-  background-size: 200px 40px;
-  display: block;
-  margin: 0 auto 2rem auto;
+  background-size: 157px 94px;
+  position: absolute;
+  right: 8px;
+  top: 11px;
+  height: 94px;
 }
 
 #tagline {
@@ -226,6 +228,14 @@ video::-webkit-media-controls-enclosure {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .brand {
+    width: 210px;
+    background-size: 210px 110px;
+    right: 8px;
+    top: 22px;
+    height: 117px;
+  }
+
   .shape {
     width: 6vw;
   }
