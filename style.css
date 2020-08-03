@@ -144,6 +144,25 @@ video::-webkit-media-controls-enclosure {
   width: 100%;
 }
 
+#bar {
+  width: 60%;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+#bar .barWrap {
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.progressBar {
+  background-color: #fff;
+  height: 0.69rem;
+  border-radius: 10px;
+  border: 1px solid #ffff;
+}
+
 /* BREACKPOINTS */
 
 /* Extra small devices (portrait phones, less than 576px) */
