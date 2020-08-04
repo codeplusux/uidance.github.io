@@ -1,9 +1,9 @@
 // Loading
 let cargando = document.querySelector(".loader");
 
-window.addEventListener("load", function () {
-  cargando.style.display = "none";
-});
+// window.addEventListener("load", function () {
+//   cargando.style.display = "none";
+// });
 
 // Video player
 var video = document.querySelector(".stage");
