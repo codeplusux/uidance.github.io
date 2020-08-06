@@ -45,6 +45,11 @@ var videosArray = [
     name: "Apple Music",
     path: "videos/appleMusic.mp4",
   },
+  {
+    id: "id10",
+    name: "Apple awards",
+    path: "videos/sportApple.mp4",
+  },
 ];
 
 var i = videosArray.length;
