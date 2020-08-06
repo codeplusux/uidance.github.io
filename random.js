@@ -53,7 +53,7 @@ function nextDance() {
   if (i < videosArray.length) {
     i = i + 1;
   } else {
-    i = 1;
+    i = 0;
   }
 
   document.getElementById("hero").innerHTML = videosArray[i].name;
@@ -75,4 +75,14 @@ window.onload = function () {
   ];
   document.getElementById("hero").innerHTML = name;
   document.getElementById("stage").src = path;
+
+  var playList = document.getElementById("playlist");
+  var list = "";
+
+  for (var i = 0; i < videosArray.length; i++) {
+    list +=
+      "<li>" + "<video src=" + videosArray[i].path + ">" + "</video></li>";
+  }
+
+  playList.innerHTML = list;
 };

@@ -10,6 +10,7 @@ body {
 
 body {
   background: #6b6b6b;
+  overflow: hidden;
 }
 
 .container-fluid {
@@ -166,6 +167,28 @@ video::-webkit-media-controls-enclosure {
   opacity: 0.08;
 }
 
+/* PLAYLIST */
+
+#playlist {
+  position: absolute;
+  right: -60rem;
+  top: 30%;
+  z-index: -1;
+  opacity: 0.3;
+  padding: 0;
+}
+
+#playlist li {
+  float: left;
+  margin: 0;
+  margin-right: 29px;
+}
+
+#playlist li video {
+  width: 209px;
+  height: 369px;
+}
+
 /* BREACKPOINTS */
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -225,6 +248,10 @@ video::-webkit-media-controls-enclosure {
     width: 10vw;
     border-radius: 4rem;
   }
+
+  .hidePlayList {
+    display: none !important;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -242,6 +269,10 @@ video::-webkit-media-controls-enclosure {
     background-size: 200px 120px;
     height: 120px;
   }
+
+  .hidePlayList {
+    display: none !important;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -252,6 +283,10 @@ video::-webkit-media-controls-enclosure {
 
   .stage {
     width: 85%;
+  }
+
+  #playlist {
+    right: -140%;
   }
 }
 
@@ -281,5 +316,9 @@ video::-webkit-media-controls-enclosure {
   .col-lg-6 {
     flex: 0 0 40%;
     max-width: 50%;
+  }
+
+  #playlist {
+    right: -70%;
   }
 }
