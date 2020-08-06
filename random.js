@@ -47,13 +47,17 @@ var videosArray = [
   },
 ];
 
-//Random display
+var i = videosArray.length;
+
 function nextDance() {
-  const { name, path } = videosArray[
-    Math.floor(Math.random() * videosArray.length)
-  ];
-  document.getElementById("hero").innerHTML = name;
-  document.getElementById("stage").src = path;
+  if (i < videosArray.length) {
+    i = i + 1;
+  } else {
+    i = 1;
+  }
+
+  document.getElementById("hero").innerHTML = videosArray[i].name;
+  document.getElementById("stage").src = videosArray[i].path;
   document.getElementById("set").classList.remove("h-100-mobile");
   document.getElementById("svg1").classList.remove("hide");
   document.getElementById("svg1").classList.remove("btnOn");

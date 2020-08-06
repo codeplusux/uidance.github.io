@@ -43,9 +43,10 @@ btn.onclick = function () {
   tooglePlayPause();
 };
 
-video.addEventListener("loadedmetadata", function () {
-  console.log(video.duration);
-});
+// Video duration
+// video.addEventListener("loadedmetadata", function () {
+//   console.log(video.duration);
+// });
 
 video.addEventListener("timeupdate", function () {
   var point = video.currentTime / video.duration;
