@@ -35,6 +35,11 @@ var videosArray = [
     name: "Pinterest",
     path: "videos/pinterest.mp4",
   },
+  {
+    id: "id8",
+    name: "Shazam",
+    path: "videos/shazam.mp4",
+  },
 ];
 
 //Random display
