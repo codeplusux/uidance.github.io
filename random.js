@@ -30,6 +30,11 @@ var videosArray = [
     name: "Kindle",
     path: "videos/kindle.mp4",
   },
+  {
+    id: "id7",
+    name: "Pinterest",
+    path: "videos/pinterest.mp4",
+  },
 ];
 
 //Random display
