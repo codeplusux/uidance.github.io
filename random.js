@@ -40,6 +40,11 @@ var videosArray = [
     name: "Shazam",
     path: "videos/shazam.mp4",
   },
+  {
+    id: "id9",
+    name: "Apple Music",
+    path: "videos/appleMusic.mp4",
+  },
 ];
 
 //Random display
