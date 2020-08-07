@@ -64,7 +64,7 @@ h3 {
   background: url(i/brand.svg) no-repeat left center;
   background-size: 157px 94px;
   position: absolute;
-  right: 8px;
+  left: 8px;
   top: 11px;
   height: 94px;
 }
