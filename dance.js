@@ -62,6 +62,7 @@ video.addEventListener("timeupdate", function () {
     document.getElementById("svg3").classList.add("hide");
     document.getElementsByTagName("div")[0].classList.remove("noBg");
     document.getElementById("tagline").classList.remove("taglineOn");
+    document.getElementById("main").classList.remove("noBg");
   }
 });
 
