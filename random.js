@@ -90,15 +90,15 @@ window.onload = function () {
   }
 
   playList.innerHTML = list;
-
-  // Loaded Video
-  var objVideo = document.getElementById("stage");
-
-  objVideo.addEventListener("loadeddata", function () {
-    if (objVideo.readyState === 4) {
-      document.getElementById("play-pause").classList.remove("hide");
-    } else {
-      document.getElementById("play-pause").classList.add("hide");
-    }
-  });
 };
+
+// Loaded Video
+var objVideo = document.getElementById("stage");
+
+objVideo.addEventListener("loadeddata", function () {
+  if (objVideo.readyState === 4) {
+    document.getElementById("play-pause").classList.remove("hide");
+  } else {
+    document.getElementById("play-pause").classList.add("hide");
+  }
+});
