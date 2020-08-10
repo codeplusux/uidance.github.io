@@ -1,5 +1,5 @@
 // Loading
-let cargando = document.querySelector(".loader");
+// let cargando = document.querySelector(".loader");
 
 // window.addEventListener("load", function () {
 //   cargando.style.display = "none";
