@@ -192,11 +192,10 @@ video {
   }
 
   .brand {
-    width: 180px;
-    height: 139px;
-    background-size: 205px 188px;
+    width: 170px;
+    height: 129px;
+    background-size: 169px 188px;
     right: 0;
-    top: -10;
   }
 
   .boxVideo {
@@ -237,8 +236,10 @@ video {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   .brand {
-    right: 0px;
-    top: -15px;
+    width: 170px;
+    height: 129px;
+    background-size: 169px 188px;
+    right: 0;
   }
 
   .grid {

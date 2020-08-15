@@ -1,33 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="922px" height="668px" viewBox="0 0 922 668" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="319px" height="192px" viewBox="0 0 319 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Group 32</title>
-    <defs>
-        <filter x="-30.1%" y="-50.0%" width="160.2%" height="200.0%" filterUnits="objectBoundingBox" id="filter-1">
-            <feOffset dx="0" dy="34" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="33" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0.0233928887   0 0 0 0 0.0295369108   0 0 0 0 0.0349581069  0 0 0 0.871694712 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-32" filter="url(#filter-1)" transform="translate(142.000000, 142.000000)">
-            <polygon id="Fill-1-Copy" fill="#121212" points="637.222796 1.84741111e-12 507.976625 12.7586431 217.457364 13.170149 275.712886 51.4735119 136.006626 72.3211857 6.82121026e-13 313.561632 204.781022 238.148274 134.188161 383.746906 556.457901 191.871494 637.240432 1.84741111e-12"></polygon>
-            <polygon id="Stroke-2-Copy" stroke="#EC1D24" stroke-width="5.878656" points="151.488458 89.6922222 47.4715189 269.963168 129.190716 240.47583 218.607033 76.3711877 192.374511 81.3308138 139.149159 177.956323 119.216596 184.066206 176.878373 84.7953018"></polygon>
-            <polygon id="Stroke-3-Copy" stroke="#EC1D24" stroke-width="5.878656" points="298.169743 65.5462306 239.549745 76.3707958 159.664689 231.430146 226.093502 207.080752 274.929457 107.721668 233.567233 118.526638 242.248048 103.943652 282.983215 94.1831235"></polygon>
-            <polygon id="Stroke-4-Copy" stroke="#EC1D24" stroke-width="5.878656" points="324.631338 49.5711789 286.800227 30.4812233 482.412505 35.6975507 203.685829 296.845086"></polygon>
-            <polygon id="Stroke-4-Copy-2" stroke="#EC1D24" stroke-width="5.878656" points="352.000196 51.9994121 430.000196 55.9994121 274.000196 201.999412 352.000196 65.9994121"></polygon>
-            <polygon id="Stroke-4-Copy-3" stroke="#EC1D24" stroke-width="5.878656" points="368.000196 67.9994121 392.000196 69.2260788 344.000196 113.999412 368.000196 72.2927455"></polygon>
-            <polygon id="Stroke-5-Copy" stroke="#EC1D24" stroke-width="5.878656" points="405.3978 138.243846 503.671293 41.9142294 469.075402 118.54447"></polygon>
-            <polygon id="Stroke-6-Copy" stroke="#EC1D24" stroke-width="5.878656" points="527.859219 30.6722796 494.764345 113.042048 537.024044 101.66097 561.675208 52.0470728 572.625184 50.8537056 550.609618 99.1272692 573.95572 94.3538005 609.940933 16.310723 555.314502 26.1947033 535.101723 64.4138055 534.255197 64.1100749 539.83992 28.7088085"></polygon>
-            <polygon id="Stroke-7-Copy" stroke="#EC1D24" stroke-width="5.878656" points="374.886008 168.298279 226.093306 315.076562 420.755201 228.35071 429.59474 197.744467 307.724323 257.283495 441.27367 169.620977 456.140791 141.781621"></polygon>
-            <polygon id="Stroke-8-Copy" stroke="#EC1D24" stroke-width="3.919104" points="568.458785 118.544078 481.256761 135.935102 442.488985 219.255253 541.322909 174.269818"></polygon>
-            <polygon id="Fill-9-Copy" fill="#EC1D24" points="486.584391 162.343984 527.366588 147.206445 529.36729 144.662947 493.217475 150.279023"></polygon>
-            <polygon id="Stroke-10-Copy" stroke="#EC1D24" stroke-width="2.0412" points="486.584391 162.343984 527.366588 147.206445 529.36729 144.662947 493.217475 150.279023"></polygon>
-            <polygon id="Fill-11-Copy" fill="#EC1D24" points="549.42017 155.178491 475.537221 184.066206 545.732293 161.788059"></polygon>
-            <polygon id="Stroke-12-Copy" stroke="#EC1D24" stroke-width="3.919104" points="549.42017 155.178491 475.537221 184.066206 545.732293 161.788059"></polygon>
+        <g id="Group-32" transform="translate(-0.000000, 0.000000)">
+            <polygon id="Fill-1" fill="#000000" points="318.611398 9.23705556e-13 253.988312 6.37932154 108.728682 6.5850745 137.856443 25.736756 68.0033128 36.1605928 3.41060513e-13 156.780816 102.390511 119.074137 67.0940807 191.873453 278.22895 95.9357468 318.620216 9.23705556e-13"></polygon>
+            <polygon id="Stroke-2" stroke="#EC1D24" stroke-width="2.939328" points="75.7442291 44.8461111 23.7357594 134.981584 64.595358 120.237915 109.303517 38.1855939 96.1872553 40.6654069 69.5745796 88.9781615 59.6082981 92.0331031 88.4391867 42.3976509"></polygon>
+            <polygon id="Stroke-3" stroke="#EC1D24" stroke-width="2.939328" points="149.084872 32.7731153 119.774873 38.1853979 79.8323444 115.715073 113.046751 103.540376 137.464728 53.8608341 121.124024 51.971826 141.491608 47.0915618"></polygon>
+            <polygon id="Stroke-4" stroke="#EC1D24" stroke-width="2.939328" points="162.315669 24.7855894 143.400113 15.2406116 241.206253 17.8487753 101.842914 148.422543"></polygon>
+            <polygon id="Stroke-4" stroke="#EC1D24" stroke-width="2.939328" points="175 26 216 27 137.000098 100.999706"></polygon>
+            <polygon id="Stroke-4" stroke="#EC1D24" stroke-width="2.939328" points="183 35 192 35 168 59"></polygon>
+            <polygon id="Stroke-5" stroke="#EC1D24" stroke-width="2.939328" points="202.6989 69.1219231 251.835646 20.9571147 234.537701 59.272235"></polygon>
+            <polygon id="Stroke-6" stroke="#EC1D24" stroke-width="2.939328" points="263.929609 15.3361398 247.382173 56.521024 268.512022 50.8304849 280.837604 26.0235364 286.312592 25.4268528 275.304809 49.5636346 286.97786 47.1769002 304.970467 8.15536149 277.657251 13.0973516 267.550862 32.2069027 267.127598 32.0550375 269.91996 14.3544042"></polygon>
+            <polygon id="Stroke-7" stroke="#EC1D24" stroke-width="2.939328" points="187.443004 84.1491395 113.046653 157.538281 210.377601 114.175355 214.79737 98.8722335 153.862161 128.641747 220.636835 84.8104883 228.070396 70.8908107"></polygon>
+            <polygon id="Stroke-8" stroke="#EC1D24" stroke-width="2.94" points="284.229392 59.272039 240.628381 67.967551 221.244492 109.627627 270.661454 87.1349089"></polygon>
+            <polygon id="Fill-9" fill="#EC1D24" points="243.292196 81.1719922 263.683294 73.6032226 264.683645 72.3314733 246.608737 75.1395113"></polygon>
+            <polygon id="Stroke-10" stroke="#EC1D24" stroke-width="1.0206" points="243.292196 81.1719922 263.683294 73.6032226 264.683645 72.3314733 246.608737 75.1395113"></polygon>
+            <polygon id="Fill-11" fill="#EC1D24" points="274.710085 77.5892453 237.76861 92.0331031 272.866146 80.8940297"></polygon>
+            <polygon id="Stroke-12" stroke="#EC1D24" stroke-width="1.959552" points="274.710085 77.5892453 237.76861 92.0331031 272.866146 80.8940297"></polygon>
         </g>
     </g>
 </svg>
