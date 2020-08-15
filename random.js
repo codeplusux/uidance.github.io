@@ -71,6 +71,24 @@ var videosArray = [
     poster: "posters/facebook.png",
     path: "videos/facebook.mp4",
   },
+  {
+    id: "id13",
+    name: "Swarm",
+    poster: "posters/swarm.png",
+    path: "videos/swarm.mp4",
+  },
+  {
+    id: "id14",
+    name: "Flickr",
+    poster: "posters/flickr.png",
+    path: "videos/flickr.mp4",
+  },
+  {
+    id: "id15",
+    name: "Santander",
+    poster: "posters/santander.png",
+    path: "videos/santander.mp4",
+  },
 ];
 
 var i = videosArray.length;
