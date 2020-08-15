@@ -239,6 +239,11 @@ video {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+
+  video {
+    width: 79%;
+    height: 90%;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
