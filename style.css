@@ -228,6 +228,10 @@ video {
     width: 70%;
     height: 90%;
   }
+
+  .hideMobile {
+    display: none;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
