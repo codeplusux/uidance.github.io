@@ -53,6 +53,8 @@ button:focus {
   text-indent: -9999px;
   background: url(i/brand.svg) no-repeat left center;
   background-size: 300px 210px;
+  -o-background-size: 300px 210px;
+  -webkit-background-size: 300px 210px;
 }
 
 /* VIDEO */
