@@ -75,7 +75,7 @@ var videosArray = [
     id: "id13",
     name: "Swarm",
     poster: "posters/swarm.png",
-    path: "videos/swarm.mp4",
+    path: "videos/swarmNew.mp4",
   },
   {
     id: "id14",
