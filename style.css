@@ -5,97 +5,308 @@
 body {
   margin: 0;
   padding: 0;
+  background: #6b6b6b;
   font-family: Arial, Helvetica, sans-serif;
   overflow: hidden;
+}
+
+.videoOn {
+  background-color: #000000;
+  background-image: none !important;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.hide {
+  display: none;
 }
 
 /* LAYOUT FLEX */
 
 .flex-container {
   display: flex;
-  flex-direction: row;
   width: 100%;
   height: 100vh;
-  justify-content: space-between;
+  background: url(i/cornerLeft.svg) no-repeat left top;
 }
 
 .flex-item {
   display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+/* BRAND */
+.brand {
+  height: 199px;
+  width: 317px;
+  position: absolute;
+  text-indent: -9999px;
+  background: url(i/brand.svg) no-repeat left center;
+  background-size: 300px 210px;
 }
 
 /* VIDEO */
-
 #video {
-  flex: 1 1 80%;
-  height: 100%;
-  background-color: lightgrey;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 70%;
 }
 
 #video .item {
-  width: 400px;
-  height: 768px;
-  line-height: 768px;
-  margin: 10px;
-  border-radius: 10px;
-  border: 1px solid white;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.boxVideo video {
+  box-shadow: 0 11px 44px 13px rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  border: 11px solid #000;
+}
+
+.boxTitle,
+.boxControls,
+.boxBar,
+.boxSlogan {
+  height: 10%;
+}
+
+.boxVideo {
+  height: 60%;
+}
+
+.boxVideo .item {
+  width: 370px;
+}
+
+video {
+  height: 100%;
+  background-color: #000;
 }
 
 /* GALLERY */
-
 .grid {
-  flex: 1 1 20%;
-  min-height: 100%;
+  width: 30%;
   display: flex;
   flex-wrap: wrap;
-  background-color: lightpink;
-  border: 1px solid lightpink;
   overflow: scroll;
+  background-image: linear-gradient(
+    180deg,
+    rgba(107, 107, 107, 0) 0%,
+    #6b6b6b 52%
+  );
+  box-shadow: -18px 0px 20px 0px #0000003b;
+  padding-bottom: 9rem;
 }
 
 .grid .item {
   flex: auto;
-  width: 90px;
-  height: 90px;
-  line-height: 90px;
-  margin: 10px;
-  border-radius: 10px;
-  background: #eee;
+  width: auto;
   text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.gridOff {
+  opacity: 0.3;
+}
+
+#gallery .item button img {
+  border: 3px solid #403f3f;
+  border-radius: 10px;
 }
 
 /* CONTROLS */
 
-#controlls .item {
-  height: 40px;
-  width: 30px;
+.boxControls .item {
+  height: 100%;
 }
 
-/* BREACKPOINTS */
+.videoOn {
+  background-color: #000000;
+  background-image: none !important;
+}
+
+.noBg {
+  background: none !important;
+}
+
+.shape {
+  width: 100%;
+  height: 6vw;
+}
+
+/* BAR */
+
+#bar .barWrap {
+  width: 180px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.progressBar {
+  background-color: #fff;
+  height: 0.69rem;
+  border-radius: 10px;
+  border: 1px solid #ffff;
+}
+
+.barOff {
+  opacity: 0.08;
+}
+
+.boxBar {
+  padding-top: 2rem;
+}
+
+/* SLOGAN */
+
+#slogan {
+  opacity: 0.2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: #000;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.sloganOn {
+  opacity: 0.2;
+  color: #fff !important;
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .grid .item {
-    height: 60px;
-    line-height: 60px;
-    margin-bottom: 15px;
+  .flex-container {
+    background-size: cover;
+  }
+
+  .brand {
+    width: 180px;
+    height: 139px;
+    background-size: 205px 188px;
+    right: 0;
+    top: -10;
+  }
+
+  .boxVideo {
+    margin-top: 2rem;
+  }
+
+  .grid {
+    margin-top: 6rem;
+    padding-bottom: 8rem;
+    box-shadow: -18px 17px 20px 0px #0000003b;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .boxTitle {
+    padding-top: 1rem;
+  }
+
+  #slogan {
+    font-size: 1.3rem;
+  }
+
+  .shape {
+    width: 11vw;
+    height: 11vw;
   }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .brand {
+    right: 0px;
+    top: -15px;
+  }
+
+  .grid {
+    margin-top: 9rem;
+    padding-bottom: 11rem;
+    box-shadow: -18px 17px 20px 0px #0000003b;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .brand {
+    right: 11px;
+    top: -13px;
+    height: 199px;
+    width: 261px;
+    background-size: 300px 218px;
+  }
+
+  .grid {
+    margin-top: 9rem;
+    padding-bottom: 11rem;
+    box-shadow: -18px 17px 20px 0px #0000003b;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .grid .item {
+    max-width: 130px;
+    margin-bottom: 4rem;
+  }
+
+  .shape {
+    width: 9vw;
+    height: 9vw;
+  }
+
+  .boxControls {
+    padding-bottom: 2rem;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .brand {
+    left: -23px;
+  }
+
+  .grid .item {
+    margin: 4rem;
+  }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
+/* Extra large devices */
 @media (min-width: 1200px) {
+  .brand {
+    left: -23px;
+  }
+
+  .shape {
+    width: 4vw;
+    height: 4vw;
+  }
+
+  .boxControls {
+    padding-bottom: 2rem;
+  }
+
+  .grid {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .grid .item {
+    width: 104px;
+    margin: 1rem;
+  }
 }
