@@ -53,8 +53,6 @@ button:focus {
   text-indent: -9999px;
   background: url(i/brand.svg) no-repeat left center;
   background-size: 300px 210px;
-  -o-background-size: 300px 210px;
-  -webkit-background-size: 300px 210px;
 }
 
 /* VIDEO */
@@ -225,6 +223,11 @@ video {
     width: 11vw;
     height: 11vw;
   }
+
+  video {
+    width: 79%;
+    height: 90%;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -240,11 +243,6 @@ video {
     box-shadow: -18px 17px 20px 0px #0000003b;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-  }
-
-  video {
-    width: 79%;
-    height: 90%;
   }
 }
 
