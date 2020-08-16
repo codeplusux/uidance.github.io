@@ -52,7 +52,7 @@ button:focus {
   position: absolute;
   text-indent: -9999px;
   background: url(i/brand.svg) no-repeat left center;
-  background-size: 300px 210px;
+  background-size: 280px 150px;
 }
 
 /* VIDEO */
@@ -91,7 +91,6 @@ button:focus {
 
 video {
   height: 97%;
-  width: 100%;
   background-color: #000;
 }
 
@@ -302,10 +301,6 @@ video {
 
 /* Extra large devices */
 @media (min-width: 1200px) {
-  .brand {
-    left: -23px;
-  }
-
   .shape {
     width: 4vw;
     height: 4vw;
