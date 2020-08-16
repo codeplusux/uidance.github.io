@@ -97,9 +97,9 @@ var videosArray = [
   },
   {
     id: "id15",
-    name: "Santander",
-    poster: "posters/santander.png",
-    path: "videos/santander.mp4",
+    name: "Cabify",
+    poster: "posters/cabify.png",
+    path: "videos/cabify.mp4",
   },
   {
     id: "id17",
