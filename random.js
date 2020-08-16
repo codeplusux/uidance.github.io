@@ -89,6 +89,24 @@ var videosArray = [
     poster: "posters/santander.png",
     path: "videos/santander.mp4",
   },
+  {
+    id: "id16",
+    name: "Mercado libre",
+    poster: "posters/mercadoLibre.png",
+    path: "videos/mercadoLibre.mp4",
+  },
+  {
+    id: "id15",
+    name: "Santander",
+    poster: "posters/santander.png",
+    path: "videos/santander.mp4",
+  },
+  {
+    id: "id17",
+    name: "Apple",
+    poster: "posters/coverflow.png",
+    path: "videos/coverflow.mp4",
+  },
 ];
 
 var i = videosArray.length;
