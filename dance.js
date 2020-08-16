@@ -17,6 +17,7 @@ function tooglePlayPause() {
     document.getElementById("svg3").classList.add("btnOn");
     document.getElementById("bar").classList.remove("barOff");
     document.getElementById("gallery").classList.add("gridOff");
+    // document.getElementById('cmdt_1_1i').removeAttribute("onclick");
   } else {
     video.currentTime = currentTime;
     btn.className = "play";

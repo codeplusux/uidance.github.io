@@ -96,16 +96,34 @@ var videosArray = [
     path: "videos/mercadoLibre.mp4",
   },
   {
-    id: "id15",
+    id: "id17",
     name: "Cabify",
     poster: "posters/cabify.png",
     path: "videos/cabify.mp4",
   },
   {
-    id: "id17",
+    id: "id18",
     name: "Apple",
     poster: "posters/coverflow.png",
     path: "videos/coverflow.mp4",
+  },
+  {
+    id: "id19",
+    name: "Apple",
+    poster: "posters/activity.png",
+    path: "videos/activity.mp4",
+  },
+  {
+    id: "id20",
+    name: "Google",
+    poster: "posters/calendarGoogle.png",
+    path: "videos/calendarGoogle.mp4",
+  },
+  {
+    id: "id21",
+    name: "Google",
+    poster: "posters/translate.png",
+    path: "videos/translate.mp4",
   },
 ];
 
@@ -119,7 +137,7 @@ window.onload = function () {
   document.getElementById("srcVideo").src = path;
   document.getElementById("srcVideo").poster = poster;
 
-  //*****
+  // GALLERY BUTTONS
   var gallery = document.getElementById("gallery");
 
   function remplazar(i) {
@@ -145,8 +163,6 @@ window.onload = function () {
   for (var i = 0; i < videosArray.length; i++) {
     gallery.appendChild(createListItem(i));
   }
-
-  //****
 };
 
 // Function next video
