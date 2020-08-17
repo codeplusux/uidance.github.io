@@ -86,7 +86,7 @@ button:focus {
 }
 
 .boxVideo .item {
-  width: 370px;
+  width: 100px;
 }
 
 video {
@@ -306,13 +306,10 @@ video {
     height: 4vw;
   }
 
-  .boxControls {
-    padding-bottom: 2rem;
-  }
-
   .grid {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    padding-top: 2rem;
   }
 
   .grid .item {
