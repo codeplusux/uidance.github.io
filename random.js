@@ -134,8 +134,8 @@ var videosArray = [
   {
     id: "id23",
     name: "Match 3D",
-    poster: "posters/match3d.png",
-    path: "videos/match3d.mp4",
+    poster: "posters/match3D.png",
+    path: "videos/match3D.mp4",
   },
   {
     id: "id24",
