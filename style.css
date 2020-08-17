@@ -282,10 +282,6 @@ video {
     width: 9vw;
     height: 9vw;
   }
-
-  .boxControls {
-    padding-bottom: 2rem;
-  }
 }
 
 /* Large devices (desktops, 992px and up) */
