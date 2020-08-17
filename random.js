@@ -125,6 +125,24 @@ var videosArray = [
     poster: "posters/translate.png",
     path: "videos/translate.mp4",
   },
+  {
+    id: "id22",
+    name: "Emirates",
+    poster: "posters/emirates.png",
+    path: "videos/emirates.mp4",
+  },
+  {
+    id: "id23",
+    name: "Match 3D",
+    poster: "posters/match3d.png",
+    path: "videos/match3d.mp4",
+  },
+  {
+    id: "id24",
+    name: "American Airlines",
+    poster: "posters/americanAirlines.png",
+    path: "videos/americanAirlines.mp4",
+  },
 ];
 
 var i = videosArray.length;

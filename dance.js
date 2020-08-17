@@ -1,8 +1,10 @@
+// Main elements
 var video = document.querySelector(".srcVideo");
 var progressBar = document.querySelector(".progressBar");
 var btn = document.getElementById("play-pause");
 let currentTime = 0;
 
+// Play Pause
 function tooglePlayPause() {
   if (video.paused) {
     currentTime = video.currentTime;
@@ -17,7 +19,6 @@ function tooglePlayPause() {
     document.getElementById("svg3").classList.add("btnOn");
     document.getElementById("bar").classList.remove("barOff");
     document.getElementById("gallery").classList.add("gridOff");
-    // document.getElementById('cmdt_1_1i').removeAttribute("onclick");
   } else {
     video.currentTime = currentTime;
     btn.className = "play";
