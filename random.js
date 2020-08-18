@@ -161,6 +161,12 @@ window.onload = function () {
   function remplazar(i) {
     document.getElementById("srcVideo").src = videosArray[i].path;
     document.getElementById("srcVideo").poster = videosArray[i].poster;
+    document.getElementsByTagName("body")[0].classList.remove("videoOn");
+    document.getElementsByTagName("div")[0].classList.remove("noBg");
+    document.getElementById("svg1").classList.remove("hide");
+    document.getElementById("svg3").classList.add("hide");
+    document.getElementById("test").removeAttribute("style");
+    document.getElementById("bar").classList.add("barOff");
   }
 
   function createListItem(i) {
