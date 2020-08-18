@@ -223,11 +223,6 @@ video {
     height: 11vw;
   }
 
-  video {
-    width: 70%;
-    height: 90%;
-  }
-
   .hideMobile {
     display: none;
   }
