@@ -167,6 +167,7 @@ window.onload = function () {
     document.getElementById("svg3").classList.add("hide");
     document.getElementById("test").removeAttribute("style");
     document.getElementById("bar").classList.add("barOff");
+    document.getElementById("gallery").classList.remove("gridOff");
   }
 
   function createListItem(i) {
