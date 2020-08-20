@@ -143,6 +143,24 @@ var videosArray = [
     poster: "posters/americanAirlines.png",
     path: "videos/americanAirlines.mp4",
   },
+  {
+    id: "id25",
+    name: "Evernote",
+    poster: "posters/evernote.png",
+    path: "videos/evernote.mp4",
+  },
+  {
+    id: "id26",
+    name: "Pillow",
+    poster: "posters/pillow.png",
+    path: "videos/pillow.mp4",
+  },
+  {
+    id: "id27",
+    name: "Investmate",
+    poster: "posters/investmate.png",
+    path: "videos/investmate.mp4",
+  },
 ];
 
 var i = videosArray.length;
