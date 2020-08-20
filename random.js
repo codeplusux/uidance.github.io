@@ -153,7 +153,7 @@ var videosArray = [
     id: "id26",
     name: "Pillow",
     poster: "posters/pillowUpdate.png",
-    path: "videos/pillowUpdate.mp4",
+    path: "videos/pillow.mp4",
   },
   {
     id: "id27",
