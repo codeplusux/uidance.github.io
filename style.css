@@ -212,6 +212,11 @@ video {
     margin-top: 2rem;
   }
 
+  .boxBar {
+    height: 0%;
+    padding-top: 0rem;
+  }
+
   .grid {
     margin-top: 6rem;
     padding-bottom: 8rem;
